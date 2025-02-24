@@ -1,4 +1,3 @@
-```
 # Replica-Spotify
 
 Este projeto tem como objetivo replicar a interface do **Spotify**, permitindo aos usuários reproduzir músicas, criar playlists e explorar o catálogo de músicas.
@@ -65,4 +64,3 @@ Contribuições são bem-vindas! Para contribuir:
 Este projeto está licenciado sob a **MIT License**.
 
 Para mais informações, consulte o arquivo LICENSE no repositório.
-```
