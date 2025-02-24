@@ -1,5 +1,3 @@
-Aqui está a versão adaptada do `README.md` para a implementação **HTML, CSS e JavaScript** puros, conforme a versão inicial do projeto:
-
 ```
 # Replica-Spotify
 
@@ -58,5 +56,3 @@ Este projeto está licenciado sob a **MIT License**.
 
 Para mais informações, consulte o arquivo LICENSE no repositório.
 ```
-
-Esse `README.md` agora reflete a versão inicial com **HTML, CSS e JavaScript** puros, no estilo que você procurava. Você pode copiar e colar diretamente!
