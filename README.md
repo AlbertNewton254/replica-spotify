@@ -3,17 +3,17 @@
 
 Este projeto tem como objetivo replicar a interface do **Spotify**, permitindo aos usuários reproduzir músicas, criar playlists e explorar o catálogo de músicas.
 
-O projeto começou como parte de um curso gratuito de imersão front-end da **Alura**, inicialmente utilizando **HTML**, **CSS** e **JavaScript** para a construção da interface. A versão final foi construída de forma simples, sem o uso de bibliotecas ou frameworks como o React, focando em uma implementação mais próxima de como o Spotify é apresentado aos usuários, mas com funcionalidades limitadas.
+O projeto começou como parte de um curso gratuito de imersão front-end da **Alura**. Inicialmente, o projeto deveria ser finalizado utilizando **React com Create React App (CRA)** e **JavaScript**. No entanto, optei por usar **React + Vite + TypeScript** para aproveitar os benefícios de **segurança na tipagem** e **escalabilidade**, garantindo uma base de código mais robusta e com maior controle de erros durante o desenvolvimento.
 
 ## Tecnologias Utilizadas
 
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** React, Vite, TypeScript, CSS
 - **Backend:** falso backend com JSON (mock de dados)
 
 ## Funcionalidades
 
 - Pesquisa e exploração de músicas, álbuns e artistas
-- Reprodução de músicas (com controles básicos)
+- Reprodução de músicas
 - Criação e organização de playlists
 - Navegação entre diferentes seções (Home, Playlists, etc.)
 
@@ -29,7 +29,17 @@ O projeto começou como parte de um curso gratuito de imersão front-end da **Al
    cd replica-spotify
    ```
 
-3. Abra o arquivo `index.html` no seu navegador.
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor:
+   ```bash
+   npm start
+   ```
+
+5. Acesse a aplicação no seu navegador em `http://localhost:3000`.
 
 ## Contribuições
 
@@ -37,7 +47,7 @@ Contribuições são bem-vindas! Para contribuir:
 
 1. Faça um fork do repositório.
 2. Crie uma nova branch:
-   ```bash
+   ```bash 
    git checkout -b minha-nova-feature
    ```
 3. Faça suas alterações e commit:

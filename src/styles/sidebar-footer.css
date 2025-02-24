@@ -51,7 +51,7 @@ body{
     display:flex;
     justify-content: space-between;
     flex-direction: column;
-    padding:4px 8px;
+    padding:4px 8px 45px;
     color:#b3b3b3;
     font-weight: 600;
     font-size:14px;
