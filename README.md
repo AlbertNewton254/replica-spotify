@@ -1,66 +1,79 @@
 # Replica-Spotify
 
-Este projeto tem como objetivo replicar a interface do **Spotify**, permitindo aos usuários reproduzir músicas, criar playlists e explorar o catálogo de músicas.
+Replica-Spotify is a front-end project that recreates the look and basic behavior of the Spotify web interface. It is built with React, Vite, and TypeScript and uses a small mock data folder as a fake backend.
 
-O projeto começou como parte de um curso gratuito de imersão front-end da **Alura**. Inicialmente, o projeto deveria ser finalizado utilizando **React com Create React App (CRA)** e **JavaScript**. No entanto, optei por usar **React + Vite + TypeScript** para aproveitar os benefícios de **segurança na tipagem** e **escalabilidade**, garantindo uma base de código mais robusta e com maior controle de erros durante o desenvolvimento.
+## Key Features
 
-## Tecnologias Utilizadas
+- Browse and search music, albums, and artists
+- Play tracks (UI-level playback simulation)
+- Create and manage playlists
+- Navigate between main sections (Home, Playlists, etc.)
 
-- **Frontend:** React, Vite, TypeScript, CSS
-- **Backend:** falso backend com JSON (mock de dados)
+## Tech Stack
 
-## Funcionalidades
+- Frontend: React, Vite, TypeScript, CSS
+- Mock data: JSON files located in the `api-artists` folder
 
-- Pesquisa e exploração de músicas, álbuns e artistas
-- Reprodução de músicas
-- Criação e organização de playlists
-- Navegação entre diferentes seções (Home, Playlists, etc.)
+## Getting Started
 
-## Como Executar o Projeto Localmente
+Prerequisites: Node.js and npm installed.
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/AlbertNewton254/replica-spotify.git
-   ```
+1. Clone the repository:
 
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd replica-spotify
-   ```
+```bash
+git clone https://github.com/AlbertNewton254/replica-spotify.git
+```
 
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
+2. Change to the project folder:
 
-4. Inicie o servidor:
-   ```bash
-   npm start
-   ```
+```bash
+cd replica-spotify
+```
 
-5. Acesse a aplicação no seu navegador em `http://localhost:3000`.
+3. Install dependencies:
 
-## Contribuições
+```bash
+npm install
+```
 
-Contribuições são bem-vindas! Para contribuir:
+4. Run the development server:
 
-1. Faça um fork do repositório.
-2. Crie uma nova branch:
-   ```bash 
-   git checkout -b minha-nova-feature
-   ```
-3. Faça suas alterações e commit:
-   ```bash
-   git commit -m 'Adiciona nova feature'
-   ```
-4. Envie para o repositório remoto:
-   ```bash
-   git push origin minha-nova-feature
-   ```
-5. Abra um pull request detalhando suas alterações.
+```bash
+npm run dev
+```
 
-## Licença
+The dev server will start and print the local address (for example `http://localhost:5173`). Open that URL in your browser.
 
-Este projeto está licenciado sob a **MIT License**.
+### Build and Preview
 
-Para mais informações, consulte o arquivo LICENSE no repositório.
+Build the production bundle:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Contributing
+
+Contributions are welcome. Typical workflow:
+
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b my-feature`
+3. Make changes and commit them.
+4. Push the branch and open a pull request.
+
+Please describe your changes and the motivation behind them when opening a PR.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Notes
+
+- Mock data for artists is stored in the `api-artists` folder.
+- The project was originally created as part of a front-end immersion course and adapted to React + Vite + TypeScript for improved type safety and development experience.
